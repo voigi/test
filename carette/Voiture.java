@@ -10,15 +10,15 @@ package carette;
 public class Voiture {
 	String marque;
 	String model;
-    String couleur;
+    	String couleur;
     
     public Voiture(String marque,String model,String couleur )
     
     {
     	
-		this.marque=marque;
-		this.model=model;
-		this.couleur=couleur;
+		this.marque = marque;
+		this.model = model;
+		this.couleur = couleur;
 	}
     public String accelerer() {
 		return  "Je roule à fond la caisse";	
