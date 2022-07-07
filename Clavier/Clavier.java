@@ -18,7 +18,7 @@ public class Clavier {
 		Scanner mot = new Scanner(System.in);
 		System.out.println("Veuillez tapez un mot: ");
 		String str = mot.nextLine();
-		System.out.println("Veuillez avez saisi " + str);
+		System.out.println("Vous avez saisi " + str);
 	}
 
 }
